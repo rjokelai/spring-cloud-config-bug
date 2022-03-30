@@ -1,0 +1,4 @@
+client:
+  mapFromYaml:
+    from: bugclient-remote.yaml
+    zoq.fot.pik: 123567890

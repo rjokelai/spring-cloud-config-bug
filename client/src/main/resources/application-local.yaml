@@ -1,6 +1,9 @@
 spring:
   banner:
     location: 'classpath:/banner-local.txt'
+  cloud:
+    config:
+      enabled: false
 
 client:
   mapFromYaml:
