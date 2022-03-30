@@ -1,0 +1,10 @@
+server:
+  port: 8182
+
+management:
+  server:
+    port: 8183
+
+spring:
+  profiles:
+    active: native
