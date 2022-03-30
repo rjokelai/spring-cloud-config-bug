@@ -8,4 +8,5 @@ spring:
 client:
   mapFromYaml:
     from: application-local.yaml
-    zoq.fot.pik: 1235
+    foo.bar: baz
+    'zoq.fot.pik': sc2

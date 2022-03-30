@@ -1,4 +1,5 @@
 client:
   mapFromYaml:
     from: bugclient-remote.yaml
-    zoq.fot.pik: 123567890
+    foo.bar: baz-quux
+    'zoq.fot.pik': '123567890'
