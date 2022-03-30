@@ -1,0 +1,8 @@
+spring:
+  banner:
+    location: 'classpath:/banner-local.txt'
+
+client:
+  mapFromYaml:
+    from: application-local.yaml
+    zoq.fot.pik: 1235
