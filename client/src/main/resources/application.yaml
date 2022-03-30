@@ -1,6 +1,8 @@
 spring:
   application:
     name: bugclient
+  banner:
+    location: 'classpath:/banner-base.txt'
 
 server:
   port: 8180
