@@ -2,4 +2,4 @@ client:
   mapFromYaml:
     from: bugclient-remote.yaml
     foo.bar: baz-quux
-    'zoq.fot.pik': '123567890'
+    'zoq.fot.pik': Make no hostile actions
