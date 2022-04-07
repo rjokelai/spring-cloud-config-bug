@@ -7,6 +7,8 @@ spring:
 
 client:
   mapFromYaml:
-    from: application-local.yaml
-    foo.bar: baz
-    'zoq.fot.pik': sc2
+    from:
+      file: application-local.yaml
+    foo.bar:
+      baz: quux
+      'zoq.fot.pik': sc2

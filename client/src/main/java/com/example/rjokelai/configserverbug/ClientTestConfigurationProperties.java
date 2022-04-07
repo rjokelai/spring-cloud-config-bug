@@ -10,22 +10,23 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 @ConfigurationProperties(prefix = "client")
 public class ClientTestConfigurationProperties {
 
-  private Map<String, String> mapFromProperties = new HashMap<>();
-  private Map<String, String> mapFromYaml = new HashMap<>();
+  private Map<String, Map<String, String>> mapFromProperties = new HashMap<>();
+  private Map<String, Map<String, String>> mapFromYaml = new HashMap<>();
 
-  public Map<String, String> getMapFromProperties() {
-    return mapFromProperties;
-  }
-
-  public Map<String, String> getMapFromYaml() {
+  public Map<String, Map<String, String>> getMapFromYaml() {
     return mapFromYaml;
   }
 
-  public void setMapFromYaml(Map<String, String> mapFromYaml) {
+  public Map<String, Map<String, String>> getMapFromProperties() {
+    return mapFromProperties;
+  }
+
+  public void setMapFromProperties(Map<String, Map<String, String>> mapFromProperties) {
+    this.mapFromProperties = mapFromProperties;
+  }
+
+  public void setMapFromYaml(Map<String, Map<String, String>> mapFromYaml) {
     this.mapFromYaml = mapFromYaml;
   }
 
-  public void setMapFromProperties(Map<String, String> mapFromProperties) {
-    this.mapFromProperties = mapFromProperties;
-  }
 }
